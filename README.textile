@@ -1,0 +1,24 @@
+h1. postMessage Feature Detection
+
+This is a set of QUnit unit tests designed to evaluate postMessage implementations across browsers.
+
+The tests are largely based on Opera's own postMessage tests:
+
+http://tc.labs.opera.com/apis/messaging/
+
+h2. Running the tests
+
+Click here: http://bentlegen.github.com/postmessage-feature-detection/
+
+h2. Motivation
+
+I wanted a quick and easy way to identify holes in postMessage implementations across browsers. Just checking for !!window.postMessage (as suggested "here":http://diveintohtml5.org/everything.html) is *not* enough.
+
+h2. Known Browser Quirks
+
+ * Safari 4.0.5 doesn't fail for all malformed uris
+ * Opera 9.64, 10.0b1-3 identifies window.postMessage, but fails most checks
+ 
+h2. Todo
+
+Still not compatible with IE8.
