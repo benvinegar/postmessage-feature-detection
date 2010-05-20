@@ -4,11 +4,11 @@ This is a set of QUnit unit tests designed to evaluate postMessage implementatio
 
 The tests are largely based on Opera's own postMessage tests:
 
-http://tc.labs.opera.com/apis/messaging/
+"http://tc.labs.opera.com/apis/messaging/":http://tc.labs.opera.com/apis/messaging/
 
 h2. Running the tests
 
-Click here: http://bentlegen.github.com/postmessage-feature-detection/
+Click here: "http://bentlegen.github.com/postmessage-feature-detection/":http://bentlegen.github.com/postmessage-feature-detection/
 
 h2. Motivation
 
